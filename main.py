@@ -66,20 +66,4 @@ plus.grid(row=2, column=3)
 minus = tk.Button(root, text=' - ', command=lambda: press("-"), height=1, width=7)
 minus.grid(row=3, column=3)
 
-multiply = tk.Button(root, text=' * ', command=lambda: press("*"), height=1, width=7)
-multiply.grid(row=4, column=3)
 
-divide = tk.Button(root, text=' / ', command=lambda: press("/"), height=1, width=7)
-divide.grid(row=5, column=3)
-
-equal = tk.Button(root, text=' = ', command=equalpress, height=1, width=7)
-equal.grid(row=5, column=2)
-
-clear = tk.Button(root, text='Temizle', command=clear, height=1, width=7)
-clear.grid(row=1, column=0)
-
-Decimal = tk.Button(root, text='.', command=lambda: press('.'), height=1, width=7)
-Decimal.grid(row=5, column=1)
-
-# GUI'yi başlat
-root.mainloop()
